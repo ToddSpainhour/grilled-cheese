@@ -1,1 +1,7 @@
-console.log("Your JS is connected")
+import breads from './components/breads.js';
+
+const init = () => {
+  breads.makeBreadRadioButtons();
+};
+
+init();
